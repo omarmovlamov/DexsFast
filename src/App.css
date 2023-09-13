@@ -70,6 +70,8 @@
 }
 .dark-theme .orange-underline {
   border-color: rgb(255, 123, 0);
+}.dark-theme .bg-product {
+  background-color: rgba(255, 123, 0, 0.795);
 }
 .dark-theme .bg-price {
   background-color: rgb(255, 123, 0);
