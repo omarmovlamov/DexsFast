@@ -1,0 +1,98 @@
+.fa-check {
+  margin-right: 5px;
+}
+.fa-bars {
+  color: white;
+}
+.logo {
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.moon button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  right: 380px;
+  top: 28px;
+}
+#nav-items a {
+  text-decoration: none;
+}
+#nav-items a:hover {
+  border-bottom: 1px solid;
+  padding-bottom: 20px;
+}
+/* Light Theme */
+.light-theme {
+  transition: 0.4s ease-in;
+  filter: invert(1);
+}
+.light-theme #nav-items a {
+  color: rgb(0, 183, 255);
+}
+.light-theme .hero-orange-bg {
+  background-color: rgba(3, 95, 148, 0.651);
+}
+.light-theme .hero-orange-fg {
+  background-color: rgba(0, 183, 255, 0.767);
+}
+.light-theme .orange-underline {
+  border-color: rgb(0, 183, 255);
+}
+.light-theme .bg-product {
+  background-color: rgba(0, 183, 255, 0.767);
+}
+.light-theme .bg-price {
+  background-color: rgba(0, 183, 255, 0.767);
+}
+.light-theme .clr-orange {
+  color: rgb(0, 183, 255);
+}
+/* Dark Theme */
+.dark-theme {
+  transition: 0.4s ease-in;
+  filter: invert(0);
+  background-color: black;
+}
+.dark-theme #nav-items a {
+  color: rgb(255, 123, 0);
+}
+.dark-theme .hero-orange-bg {
+  background-color: rgba(255, 123, 0, 0.438);
+}
+.dark-theme .hero-orange-fg {
+  background-color: rgb(255, 123, 0);
+}
+.dark-theme .orange-underline {
+  border-color: rgb(255, 123, 0);
+}
+.dark-theme .bg-price {
+  background-color: rgb(255, 123, 0);
+}
+
+.dark-theme .clr-orange {
+  color: rgb(255, 123, 0);
+}
+@media (max-width: 762px) {
+  .moon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    right: 50px;
+    top: 28px;
+  }
+}
+@media (max-width: 400px) {
+  .col-div {
+    display: flex;
+    flex-direction: column;
+  }
+}
